@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+html {
+  font-size: 22px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+}
+
+header img {
+  margin: 10px;
+  height: 50px;
+  max-width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+header nav a {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  text-decoration: underline;
+  margin: 0 10px;
+}
+
+/* Banner */
+
+.banner {
+  display: flex;
+  margin: 70px auto;
+  max-width: 1200px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*l846b3*_ga*MDcyMjc3OTg1NS4xNjY3NTUxMjQy*_ga_3LRZM6TM9L*MTY2OTgyMjIyNy45OS4xLjE2Njk4MjYwOTguMC4wLjA.");
+}
+
+.banner .banner-content {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner .banner-content h2,
+.banner .banner-content h4 {
+  padding: 10px;
+}
