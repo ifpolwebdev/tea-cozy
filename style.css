@@ -90,3 +90,53 @@ header nav a {
   width: 300px;
   margin: 10px 15px;
 }
+
+/* Locations */
+
+.locations-bg-img {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*12rnwkx*_ga*MDcyMjc3OTg1NS4xNjY3NTUxMjQy*_ga_3LRZM6TM9L*MTY2OTgzMzY4NS4xMDEuMS4xNjY5ODMzODM4LjAuMC4w");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1200px;
+  min-height: 500px;
+  margin: 60px auto 10px;
+  padding: 60px;
+}
+
+#location {
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.child-box h3,
+.child-box p {
+  margin: 15px;
+}
+
+/* Footer */
+
+contact {
+  height: 200px;
+  margin: 0 auto;
+}
+
+.contact h2,
+.contact h5,
+.contact p {
+  margin-bottom: 50px;
+}
+
+#copyright {
+  margin-left: 20px;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  text-align: left;
+}
