@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -68,4 +68,25 @@ header nav a {
 .banner .banner-content h2,
 .banner .banner-content h4 {
   padding: 10px;
+}
+
+/* Content */
+
+.content h2,
+.content h4 {
+  padding: 10px;
+}
+
+.content-img {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.content img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 15px;
 }
